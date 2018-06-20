@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 class FizzBuzzTest {
 
     @Test
-    void fizzBuzz() {
+    void fizzBuzz_numbers() {
         assertThat(FizzBuzz.fizzBuzz(1), is("1"));
     }
 }

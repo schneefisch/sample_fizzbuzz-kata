@@ -9,6 +9,8 @@ package com.icc.katasampleproject;
  ----------------------------------------------
  */
 
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * See http://codingdojo.org/kata/FizzBuzz/
  * This is an empty setup for Katas with the FizzBuzz theme
@@ -22,10 +24,9 @@ package com.icc.katasampleproject;
  * Extended:
  * - same as above, but add the number 7 as additional dividable with the string "Bazz"
  */
-public class FizzBuzz {
+class FizzBuzz {
 
     static String fizzBuzz(int number) {
-
         return "1";
     }
 
